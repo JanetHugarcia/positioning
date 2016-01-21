@@ -1,0 +1,67 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing:content-box;
+}
+.caja{
+	width:100px;
+	height:100px;
+	position:relative;
+}
+
+.rojo{
+	background-color: #ee3e64;
+
+}
+
+.azul{
+	background-color: #44accf;
+	
+}
+
+.verde{
+	background-color: #b7d84b;
+}
+
+.amarillo{
+	background-color:#ffff00; 
+}
+
+.estatico{
+	position:static;
+}
+
+.relativo{
+	position: relative;
+}
+
+#derecha{
+	left:100px;
+}
+
+.absoluto{
+	position: absolute;
+}
+#absolutouno{
+	left:400px;	
+}
+
+#absolutodos{
+	top:400px;
+}
+
+#absolutotres{
+	left: 400px;
+	top:400px;
+}
+
+#azulabs{
+	left:100px;
+	top:100px;
+}
+
+.contenedor{
+	width: 600px;
+	height: 500px;
+	
+}

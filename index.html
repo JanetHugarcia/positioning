@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Positioning</title>
+	<link rel="shortcut icon" type="x-icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+	
+	<h3>Position:static;</h3>
+	<div class="caja rojo estatico"></div>
+	<div class="caja azul estatico"></div>
+	<div class="caja verde estatico"></div>
+
+	<h3>Position:relative;</h3>
+	<div class="caja rojo relativo"></div>
+	<div class="caja azul relativo" id="derecha"></div>
+	<div class="caja verde relativo"></div>
+
+	<h3>Position:relative;</h3>
+	<div class="caja rojo relativo"></div>
+	<div class="caja azul relativo" style="left:100px;top:-100px;"></div>
+	<div class="caja verde relativo" style="top:-100px"></div>
+
+	<div class="caja contenedor">
+	<h3>Position:absolute;</h3>
+	<div class="caja rojo absoluto"></div>
+	<div class="caja azul absoluto" id="absolutouno"></div>
+	<div class="caja verde absoluto" id="absolutodos"></div>
+	<div class="caja amarillo absoluto" id="absolutotres"></div>
+	</div>
+		
+	<h3>Position:static;</h3>
+
+	<div class="caja contenedor">
+	<div class="caja rojo relativo"></div>
+	<div class="caja azul absoluto" id="azulabs"></div>
+	<div class="caja verde relativo"></div>
+	<div class="caja amarillo relativo"></div>
+	</div>
+	
+</body>
+</html>
